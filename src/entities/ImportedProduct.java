@@ -34,7 +34,7 @@ public class ImportedProduct extends Product {
 		return name 
 				+ " $ " 
 				+ String.format("%.2f", totalPrice())
-				+ "(Customs fee: $ " + String.format("%.2f", customsFee) + ")";
+				+ " (Customs fee: $ " + String.format("%.2f", customsFee) + ")";
 	}
 
 }
