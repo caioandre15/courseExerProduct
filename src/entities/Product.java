@@ -3,8 +3,8 @@ package entities;
 public class Product {
 
 	// Attributes
-	protected String name;
-	protected Double price;
+	private String name;
+	private Double price;
 
 	// Builders
 	public Product() {

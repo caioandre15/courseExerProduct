@@ -22,7 +22,7 @@ public class Program {
 		
 		List<Product> products = new ArrayList<>();
 		
-		System.out.print("Enter the number of pructs: ");
+		System.out.print("Enter the number of products: ");
 		int n = sc.nextInt();
 		
 		for (int i = 1; i <= n; i++) {
