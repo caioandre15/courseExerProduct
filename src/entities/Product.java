@@ -3,8 +3,8 @@ package entities;
 public class Product {
 
 	// Attributes
-	private String name;
-	private Double price;
+	protected String name;
+	protected Double price;
 
 	// Builders
 	public Product() {
@@ -34,12 +34,9 @@ public class Product {
 	
 	//Methods
 	public String priceTag() {
-		String quebraLinha = System.getProperty("line.separator");
-		return "Name: " 
-				+ name 
-				+ quebraLinha
-				+ "Price: " 
-				+ price;
+		return name 
+				+ " $ " 
+				+ String.format("%.2f", price);
 	}
 
 }
